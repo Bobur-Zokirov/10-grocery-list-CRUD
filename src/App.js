@@ -25,6 +25,7 @@ const App = () => {
     }
     else if (name && edit.status) {
       editItem(edit.id)
+      showAlert(true, "alert-success", "Edited successfully")
     }
     else {
       addItem()
